@@ -25,6 +25,31 @@ header {
        font-size: 25px;
      }
 
+     .main {
+        max-width: 960px;
+        margin: auto;
+      }
+
+      .row {
+        margin: 8px -16px;
+      }
+
+      .column {
+        float: left;
+        width: 25%;
+      }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      .content {
+        background-color: #cccccc;
+        padding: 10px;
+      }
+
      body {
         background-image: url("../images/beanstalk-dark.png");
         background-color: #cccccc;
