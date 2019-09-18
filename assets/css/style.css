@@ -25,7 +25,9 @@ header {
     font-size: 25px;
   }
 
-  
+  .p1{
+      float: left;
+  }
   
   #p1 {
       
